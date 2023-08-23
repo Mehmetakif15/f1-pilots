@@ -1,13 +1,39 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(249, 159, 159);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*! Header */
+.header-title {
+  color: rgb(232, 232, 212);
+}
+
+/*! Card Container */
+.card-container {
+  background-color: rgb(213, 133, 133);
+  min-width: 300px;
+}
+
+/*! Pilot Card */
+.pilot-card {
+  height: 300px;
+}
+
+.pilot-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pilot-img {
+  transition: transform 0.2s;
+  height: 215px;
+}
+
+.pilot-card:hover .pilot-img {
+  transform: scale(0.98);
 }
