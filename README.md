@@ -2,7 +2,7 @@
 
 ## `Gif`
 
-![f1-pilots-app](fa-pilots-app.gif)
+![f1-pilots-app](f1-pilots-app.gif)
 
 ## `Installation`
 
