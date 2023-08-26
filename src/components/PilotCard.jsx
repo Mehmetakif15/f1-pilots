@@ -11,7 +11,7 @@ const PilotCard = ({ name, country, image, championships }) => {
       role="button"
       onClick={handleClick}
     >
-      <Card.Header>{name}</Card.Header>
+      <Card.Header className="fw-bold">{name}</Card.Header>
       {showImage ? (
         <Card.Img variant="top" src={image} className="pilot-img" />
       ) : (
