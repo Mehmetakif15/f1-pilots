@@ -4,6 +4,10 @@
 
 ![f1-pilots-app](f1-pilots-app.gif)
 
+## `Live`
+
+- https://f1-pilots-react.netlify.app/
+
 ## `Installation`
 
 ```
@@ -62,5 +66,3 @@ SOLUTION
 - improve coding skills within HTML & CSS & JS & ReactJS & Bootstrap.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## `Live`
